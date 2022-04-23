@@ -11,7 +11,8 @@ body {
 /* Header start */
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    /* A font family functions as a fallback system in case a particular broswer does not support a specific font  */
+    font-family: 'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
